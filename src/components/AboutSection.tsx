@@ -4,8 +4,8 @@ const AboutSection = () => (
   <div className="container-fluid py-5">
     <div className="container">
       <div className="section-title">
-        <h4 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>About Us</h4>
-        <h1 className="display-4">Serving Since 1950</h1>
+        <h4 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>Về chúng tôi</h4>
+        <h1 className="display-4">HafCoffee - cung cấp cà phê nguyên chất</h1>
       </div>
       <div className="row">
         <div className="col-lg-4 py-0 py-lg-5">
