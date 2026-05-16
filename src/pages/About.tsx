@@ -6,7 +6,9 @@ function About() {
   return (
     <>
       <PageHeader title="Về chúng tôi" />
-      <AboutSection />
+      <div id="about">
+        <AboutSection />
+      </div>
       <Contact />
     </>
   );

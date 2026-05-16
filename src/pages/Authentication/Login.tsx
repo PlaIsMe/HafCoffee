@@ -54,7 +54,7 @@ const Login = () => {
           </p>
         </section>
 
-        <form>
+        <form id="login-form">
           <h1 className="title">Đăng nhập</h1>
 
           <div className="box">
@@ -78,7 +78,7 @@ const Login = () => {
           <input type="submit" className="login-button" value="Đăng nhập" />
 
           <div className="sign">
-            Chưa có tài khoản? <Link to="/register" >Đăng ký ngay</Link><br></br><b>Hoặc đăng nhập bằng </b>
+            Chưa có tài khoản? <Link to="/register#register-form" >Đăng ký ngay</Link><br></br><b>Hoặc đăng nhập bằng </b>
           </div>
           <div className="social-login">
             <div className="social-btn facebook"

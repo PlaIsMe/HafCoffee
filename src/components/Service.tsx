@@ -35,7 +35,7 @@ const services = [
   },
 ];
 
-const Service = () => {
+const Instruction = () => {
   return (
     <div className="container-fluid pt-5">
       <div className="container">
@@ -43,7 +43,7 @@ const Service = () => {
           <h4 className="text-primary text-uppercase" style={{ letterSpacing: '5px' }}>
             Hướng dẫn sử dụng
           </h4>
-          <h1 className="display-4">Fresh &amp; Organic Beans</h1>
+          {/* <h1 className="display-4">Fresh &amp; Organic Beans</h1> */}
         </div>
         <div className="row">
           {services.map((service, index) => (
@@ -67,4 +67,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Instruction;

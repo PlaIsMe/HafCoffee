@@ -5,7 +5,9 @@ function Product() {
   return (
     <>
       <PageHeader title="Sản phẩm" />
-      <Menu />
+      <div id="menu">
+        <Menu />
+      </div>
       {/* <Reservation /> */}
     </>
   );

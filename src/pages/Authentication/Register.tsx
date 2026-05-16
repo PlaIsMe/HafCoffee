@@ -54,7 +54,7 @@ const Register = () => {
           </p>
         </section>
 
-        <form>
+        <form id="register-form">
           <h1 className="title">Đăng ký</h1>
 
           <div className="box">
@@ -100,7 +100,7 @@ const Register = () => {
           <input type="submit" className="login-button" value="Đăng ký" />
 
           <div className="sign">
-            Đã có tài khoản ? <Link to="/login" >Đăng nhập ngay</Link><br></br><b>Hoặc đăng nhập bằng </b>
+            Đã có tài khoản ? <Link to="/login#login-form" >Đăng nhập ngay</Link><br></br><b>Hoặc đăng nhập bằng </b>
           </div>
           <div className="social-login">
             <Link to="/facebook-login" className="social-btn facebook">

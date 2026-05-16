@@ -1,7 +1,7 @@
 import Carousel from "../components/Carousel";
 import Menu from "../components/Menu";
 import Offer from "../components/Offer";
-import Service from "../components/Service";
+import Instruction from "../components/Service";
 import Testimonial from "../components/Testimonial";
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <>
       <Carousel />
       <Menu />
-      <Service />
+      <Instruction />
       <Offer />
       <Testimonial />
     </>
